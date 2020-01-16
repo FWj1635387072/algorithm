@@ -59,14 +59,13 @@ public class Main3 {
          }
  }
 
-     */
+
 
 
     static int n, m, k;
     static int[] rec;
     static double[] score;
-
-    public static void main(String[] args) throws Exception {
+    public static void f3() throws Exception {
         DecimalFormat df = new DecimalFormat("0.000");
         R.init(System.in);
         n = R.nextInt();
@@ -118,6 +117,128 @@ public class Main3 {
         static Double nextDouble() throws Exception {
             return Double.parseDouble(next());
         }
+    }
+
+     */
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int ys, shang;
+        String out;
+        int num = scan.nextInt();
+        shang = num;
+        ys = 0;
+        out = "";
+        while (num >= 16 ) {
+            ys = num % 16;
+            switch (ys) {
+                case 0:
+                    out = 0 + out;
+                    break;
+                case 1:
+                    out =1+out;
+                    break;
+                case 2:
+                    out =2+out;
+                    break;
+                case 3:
+                    out =3+out;
+                    break;
+                case 4:
+                    out =4+out;
+                    break;
+                case 5:
+                    out =5+out;
+                    break;
+                case 6:
+                    out =6+out;
+                    break;
+                case 7:
+                    out =7+out;
+                    break;
+                case 8:
+                    out =8+out;
+                    break;
+                case 9:
+                    out =9+out;
+                    break;
+                case 10:
+                    out ="A"+out;
+                    break;
+                case 11:
+                    out ="B"+out;
+                    break;
+                case 12:
+                    out ="C"+out;
+                    break;
+                case 13:
+                    out ="D"+out;
+                    break;
+                case 14:
+                    out ="E"+out;
+                    break;
+                case 15:
+                    out ="F"+out;
+                    break;
+                default:
+                    break;
+            }
+            num = num / 16;
+        }
+        switch (num) {
+            case 0:
+                out = 0+out;
+                break;
+            case 1:
+                out =1+out;
+                break;
+            case 2:
+                out =2+out;
+                break;
+            case 3:
+                out =3+out;
+                break;
+            case 4:
+                out =4+out;
+                break;
+            case 5:
+                out =5+out;
+                break;
+            case 6:
+                out =6+out;
+                break;
+            case 7:
+                out =7+out;
+                break;
+            case 8:
+                out =8+out;
+                break;
+            case 9:
+                out =9+out;
+                break;
+            case 10:
+                out ="A"+out;
+                break;
+            case 11:
+                out ="B"+out;
+                break;
+            case 12:
+                out ="C"+out;
+                break;
+            case 13:
+                out ="D"+out;
+                break;
+            case 14:
+                out ="E"+out;
+                break;
+            case 15:
+                out ="F"+out;
+                break;
+            default:
+                break;
+        }
+        System.out.println(out);
+        
     }
 }
 
