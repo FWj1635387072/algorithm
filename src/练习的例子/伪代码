@@ -1,0 +1,30 @@
+
+p 开始下标
+q 结束下标
+k 求第k小个元素(递增序列中第k个元素)
+
+selectK(A,p,r,k){
+    q = partition(A,p,r);
+    qK = q - p + 1; //主元的下标
+    if(qK == k) return A[q]; //主元是第几个元素
+    else if(qK > k) return selectK(A,p,q-1,k);
+    else return selectK(A,q+1,r,k-qK);
+}
+
+partition(A,p,r){
+    
+}
+
+
+//水王，两两消除法
+
+
+
+
+
+
+//加强版水王
+
+
+//辅助空间，查看最小可用id
+//也可用分区的思想

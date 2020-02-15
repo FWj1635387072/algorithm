@@ -59,8 +59,6 @@ public class 快排 {
         int[] temp = {arr[left],arr[right],arr[(left+right)/2]};
         return 0;
 
-
-
     }
 
 
