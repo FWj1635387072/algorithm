@@ -28,3 +28,42 @@ partition(A,p,r){
 
 //辅助空间，查看最小可用id
 //也可用分区的思想
+
+
+//合并有序数组
+    A为较大数组，可容纳A+B中的所有元素。
+    B为待合并数组
+mergeArr(A,B){
+     //可用二分
+    for(i ::){
+        if(A[i] == 0){
+            a = i;
+            break;
+        }
+    }
+    //拼接
+    for(i a:a+B.lenth){
+        A[i] = B[i - a];
+    }
+    while(aP < bP){
+        while(aP < bP && aP > 0){
+            
+            
+        }
+        while(aP < bP && bP > a){
+            
+        }
+    }
+}
+
+
+
+堆化
+MakeMinHeap(a[0...n-1])
+    for i=n/2-1 down to 0       //这些节点的子树已经是合法的最小堆
+        MinHeapFixDown(a,i,n)
+           
+//假设某个节点的左右子树分别满足最小堆，现在检测整体是否满足
+//如果该节点不满足，向下沉，将它的最小子节点上浮
+   
+         
