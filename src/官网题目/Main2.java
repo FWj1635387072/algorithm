@@ -1,3 +1,5 @@
+package 官网题目;
+
 import java.util.Scanner;
 
 public class Main2 {

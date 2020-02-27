@@ -1,6 +1,6 @@
-/*import java.util.Scanner;
+package 官网题目;/*import java.util.Scanner;
 
-public class Main {
+public class 官网题目.Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
