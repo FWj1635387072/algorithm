@@ -103,13 +103,13 @@ public class practice_3 {
         MinHeap(a);
         for (int i = a.length - 1; i >= 0; i--) {
             swap(a, 0, i);
-            MinHeapFixDown(a, 0, i - 1);
+            MinHeapFixDown(a, 0, i);
         }
     }
 
     @Test
     public void test1() {
-       /* int[] a = {4, 2, 6, 1, 3, 5, 7};
+        /*int[] a = {4, 2, 6, 1, 3, 5, 7};
         MinHeap(a);
         String s = Util.printArr(a);
         System.out.println(s);
@@ -149,7 +149,6 @@ public class practice_3 {
     }
 
     static void maxHeapFixDown(int[] A, int i, int n) {
-
         //找到左右子节点
         int left = 2 * i + 1;
         int right = 2 * i + 2;
@@ -164,18 +163,73 @@ public class practice_3 {
                 max = right;
             }
         }
-        //最大值上浮
-        swap(A, i, max);
-        //递归向下对子树进行上浮
-        maxHeapFixDown(A, max, n);
+
+        //父节点和子节点中最大值上浮
+        if (A[i] < A[max]) {
+            swap(A, max, i);
+            maxHeapFixDown(A, max, n);
+        } else {
+            return;
+        }
     }
 
     static void sort1(int[] A) {
         maxHeap(A);
         for (int i = A.length - 1; i >= 0; i--) {
             swap(A, 0, i);
-            maxHeapFixDown(A, 0, i - 1);
+            maxHeapFixDown(A, 0, i);
         }
+    }
+
+
+    static void minHeap(int[] a) {
+        for (int i = a.length / 2 - 1; i >= 0; i--) {
+            minHeapFixDown(a, i, a.length);
+        }
+    }
+
+    static void minHeapFixDown(int[] A, int i, int n) {
+        //获得左右子树
+        int left = 2 * i + 1;
+        int right = 2 * i + 2;
+        //判断是否有左右子树,确定其最小值
+        if (left >= n) {
+            return;
+        }
+        int min = left;
+        if (right >= n) {
+            min = left;
+        } else {
+            if (A[right] <= A[left]) {
+                min = right;
+            }
+        }
+
+        //判断父节点和子节点大小
+        if (A[i] >= A[min]) {
+            swap(A, min, i);
+        } else {
+            return;
+        }
+        //递归调用孙子树
+        minHeapFixDown(A, min, n);
+    }
+
+    static void sort11(int[] a) {
+        minHeap(a);
+        for (int i = a.length - 1; i >= 0; i--) {
+            swap(a, 0, i);
+            minHeapFixDown(a, 0, i);
+        }
+    }
+
+
+    @Test
+    public void test11() {
+        int[] a = {4, 2, 6, 1, 3, 5, 7};
+        sort11(a);
+        String s = Util.printArr(a);
+        System.out.println(s);
     }
 
 
