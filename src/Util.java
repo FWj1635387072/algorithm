@@ -19,6 +19,11 @@ public class Util {
         return arr;
     }
 
+    /**
+     * return the all array
+     * @param arr
+     * @return
+     */
     public static String printArr(int[] arr) {
         StringBuilder sb = new StringBuilder("[");
         for (int i = 0; i < arr.length; i++) {
@@ -26,6 +31,37 @@ public class Util {
         }
         sb.append("]");
         return sb.toString();
+    }
+
+    /**
+     *  return the max of array;
+     * @param arr
+     * @return
+     */
+    public static int maxOf(int[] arr){
+        int temp = arr[0];
+        for(int i : arr){
+            if(temp < i){
+                temp = i;
+            }
+        }
+        return temp;
+    }
+
+    /**
+     *
+     *  return the min of array
+     * @param arr
+     * @return
+     */
+    public static int minOf(int[] arr){
+        int temp = arr[0];
+        for(int i : arr){
+            if(temp > i){
+                temp = i;
+            }
+        }
+        return temp;
     }
 
 

@@ -5,6 +5,7 @@ import org.omg.CORBA.Any;
 import 算法书例子.第一章.Util;
 
 import java.math.BigInteger;
+import java.util.Scanner;
 
 public class ch2 {
     //最大子序列和
@@ -183,7 +184,8 @@ public class ch2 {
     }
 
     /**
-     *  get  x ** n
+     * get  x ** n
+     *
      * @param x
      * @param n
      * @return
@@ -201,7 +203,7 @@ public class ch2 {
 
     /**
      * 使用递归进行幂运算(long类型)，其运算范围小于使用math函数，但速度快
-     *  使用BigInteger更好更快
+     * 使用BigInteger更好更快
      * res:
      * 1.0E20
      * 1ms
@@ -209,9 +211,9 @@ public class ch2 {
      * 0ms
      */
     @Test
-    public void test22(){
+    public void test22() {
         long l = System.currentTimeMillis();
-        double d =  Math.pow(100,10);
+        double d = Math.pow(100, 10);
         System.out.println(d);
         Util.duration(l);
 
@@ -219,4 +221,50 @@ public class ch2 {
         System.out.println(new BigInteger("100").pow(10));
         Util.duration(l);
     }
+
+    @Test
+    public void test32() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入一个整数上限:");
+        String s = scanner.next();
+        int num = Integer.parseInt(s);
+        //计算该整数内所有数的立方和并存储在一个数组中
+        Integer arrResult[] = new Integer[num];
+        for (int i = 1; i <= num; i++) {
+            arrResult[i - 1] = i * i * i;
+        }
+
+        Integer result = 0;//获得连续的数的立方和
+        String str = "";//以字符串形式统计所用的数,形成一个表达式
+
+        for (int i = 1; i <= num; i++) {//最外层循环次数
+            for (int j = 1; j < num; j++) {//作为开始求和的最小值
+                //清空上次计算的结果
+                result = 0;
+                if (str.length() != 0) {
+                    str = "";
+                }
+                for (int k = j; k < num; k++) {//最内层计算该数的组成
+                    result += k * k * k;
+                    str = str + "" + k + "^3" + "+";
+                    if (result.equals(arrResult[i - 1])) {
+                        int temp = k * k * k;
+                        //再次判断是否是本身的立方,如果是本身的立方,则跳过
+                        if (temp == arrResult[i - 1]) {
+                            break;
+                        }
+                        //直接输出计算的结果
+                        System.out.println("值" + arrResult[i - 1] + "," + i + "^3=" + str.substring(0, str.length() - 1));
+                        break;
+                    } else if (result > arrResult[i - 1]) {
+                        //计算的结果大于要求,跳出循环
+                        break;
+                    }
+                }
+            }
+
+
+        }
+    }
 }
+

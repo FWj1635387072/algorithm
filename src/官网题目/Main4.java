@@ -42,19 +42,6 @@ public class Main4 {
 
     @Test
     public void test1() {
-        int x = 9;
-        int y = 9;
-        int z = 0;
-        System.out.println("" + x + y + z + z + y + x);
-        if (x * y * z != 0) {
-
-        } else {
-            if (2 * (x + y) + z == 36) {
-                String s = "" + x + y + z+z + y + x;
-                System.out.println(s);
-            }
-        }
-
 
         String s = "" + 9 + 9 + 0 + 0 + 9 + 9;
         System.out.println(s);

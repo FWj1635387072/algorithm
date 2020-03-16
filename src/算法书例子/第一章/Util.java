@@ -38,5 +38,36 @@ public class Util {
         return sb.toString();
     }
 
+    /**
+     *  return the max of array;
+     * @param arr
+     * @return
+     */
+    public static int maxOf(int[] arr){
+        int temp = arr[0];
+        for(int i : arr){
+            if(temp < i){
+                temp = i;
+            }
+        }
+        return temp;
+    }
+
+    /**
+     *
+     *  return the min of array
+     * @param arr
+     * @return
+     */
+    public static int minOf(int[] arr){
+        int temp = arr[0];
+        for(int i : arr){
+            if(temp > i){
+                temp = i;
+            }
+        }
+        return temp;
+    }
+
 
 }
