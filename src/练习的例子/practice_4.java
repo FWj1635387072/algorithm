@@ -3,9 +3,7 @@ package 练习的例子;
 import org.junit.Test;
 import 算法书例子.第一章.Util;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class practice_4 {
     /**
@@ -101,6 +99,67 @@ public class practice_4 {
             }
         }
     }
+
+    /**
+     * 特殊排序
+     */
+    static int f(Integer[] arr) {
+        Arrays.sort(arr, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                String s1 = o1 + "" + o2;
+                String s2 = o2 + "" + o1;
+                return s1.compareTo(s2);
+            }
+        });
+        StringBuilder s = new StringBuilder("");
+        for (int i = 0; i < arr.length; i++) {
+            s.append(arr[i]);
+        }
+        return Integer.parseInt(s.toString());
+    }
+
+
+    @Test
+    public void test2() {
+        int res = f(new Integer[]{32, 12, 1});
+        System.out.println(res);
+    }
+
+
+    /**
+     * 数组的包含：
+     * 输入两个字符串str1和str2，请判断str1中的所有字符是否都存在于str2中
+     */
+    static boolean check(String a, String b) {
+        char[] ch = b.toCharArray();
+        Arrays.sort(ch);
+
+        int len = a.length();
+        for (int i = 0; i < len; i++) {
+            int index = Arrays.binarySearch(ch, a.charAt(i));
+            if (index < 0)
+                return false;
+        }
+        return true;
+    }
+    static boolean check1(String a, String b) {
+        for (int i = 0; i < a.length(); i++) {
+            if (b.indexOf(a.charAt(i)) < 0)
+                return false;
+        }
+        return true;
+    }
+
+
+    @Test
+    public void test3(){
+        System.out.println(check("a,,as","asdaewa"));
+        System.out.println(check("123","12345"));
+        System.out.println(check1("a,,as","asdaewa"));
+        System.out.println(check1("123","12345"));
+    }
+
 
 
 }
