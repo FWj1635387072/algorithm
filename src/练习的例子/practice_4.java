@@ -143,6 +143,7 @@ public class practice_4 {
         }
         return true;
     }
+
     static boolean check1(String a, String b) {
         for (int i = 0; i < a.length(); i++) {
             if (b.indexOf(a.charAt(i)) < 0)
@@ -153,11 +154,11 @@ public class practice_4 {
 
 
     @Test
-    public void test3(){
-        System.out.println(check("a,,as","asdaewa"));
-        System.out.println(check("123","12345"));
-        System.out.println(check1("a,,as","asdaewa"));
-        System.out.println(check1("123","12345"));
+    public void test3() {
+        System.out.println(check("a,,as", "asdaewa"));
+        System.out.println(check("123", "12345"));
+        System.out.println(check1("a,,as", "asdaewa"));
+        System.out.println(check1("123", "12345"));
     }
 
 

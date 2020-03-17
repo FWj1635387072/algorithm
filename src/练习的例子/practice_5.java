@@ -130,7 +130,7 @@ public class practice_5 {
                     c++;
                 }
             } else {
-                System.out.println(arr[r][c] + " ");
+                System.out.print(arr[r][c] + " ");
                 if (c == 0 && r < m - 1) {
                     d = !d;
                     r++;
@@ -145,6 +145,91 @@ public class practice_5 {
                 }
             }
         }
+    }
+
+    @Test
+    public void test3() {
+        int[][] arr = {
+                {1, 2, 3, 4},
+                {5, 6, 0, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}};
+        printArrZ(arr);
+    }
+
+    /**
+     *
+     * 倒Z输出二维数组
+     *
+     */
+
+//------------------------
+
+    /**
+     * 给定一个N*N的矩阵，在这个矩阵中，只有0和1两种值，返回边框全是1的最大正方形的边长长度
+     */
+
+    static int FindMaxOrder(int[][] A) {
+        int r;
+        int c;
+        int n = A.length;
+
+        while (n > 0) {
+            for (int i = 0; i < A.length; i++) {
+                if (i + n > A.length) break;
+
+                l1:
+                for (int j = 0; i < A[0].length; j++) {
+                    if (j + n > A[0].length) break;
+                    r = i;
+                    c = j;
+                    while (c < j + n) {
+                        if (A[r][c++] == 0) continue l1;
+                    }
+
+                    c--;
+                    r++;
+                    while (r < i + n) {
+                        if (A[r++][c] == 0) continue l1;
+                    }
+                    r--;
+                    c--;
+                    while (c >= j) {
+                        if (A[r][c--] == 0) continue l1;
+                    }
+                    c++;
+                    r--;
+                    while (r >= i) {
+                        if (A[r--][c] == 0) continue l1;
+                    }
+                    return n;
+                }
+            }
+            n--;
+        }
+        return 0;
+    }
+
+
+    @Test
+    public void test4() {
+
+        //五阶有bug
+
+        int[][] arr = {
+                {0, 1, 1, 1, 1},
+                {0, 1, 0, 0, 1},
+                {0, 1, 0, 0, 1},
+                {0, 1, 1, 1, 1},
+                {0, 1, 0, 1, 1}
+        };
+        int[][] arr1 = {
+                {1, 1, 1, 1},
+                {1, 0, 0, 1},
+                {1, 0, 0, 1},
+                {1, 1, 1, 1}
+        };
+        System.out.println(FindMaxOrder(arr));
 
     }
 
