@@ -1,5 +1,6 @@
 package 练习的例子;
 
+import com.sun.deploy.util.StringUtils;
 import org.junit.Test;
 import 算法书例子.第一章.Util;
 
@@ -231,6 +232,40 @@ public class practice_5 {
         };
         System.out.println(FindMaxOrder(arr));
 
+    }
+
+
+    /**
+     * 子数组最大累加和
+     * 给定一个数组arr，返回子数组的最大累加和
+     * 例：arr=[1,-2,3,5,-2,6,-1];所有的子数组中[3，5，-2，6]可以累加出最大的和12，所以返回12
+     */
+
+
+    static int getMaxSum(int[] arr) {
+        int left = 0, right = 0;
+        int sum = arr[0];
+        int max = sum;
+        for (int i = 0; i < arr.length; i++) {
+            if (sum >= 0) {
+                sum += arr[i];
+            } else {
+                sum = arr[i];
+                left = i;
+            }
+
+            if (sum > max) {
+                max = sum;
+                right = i;
+            }
+        }
+        return max;
+    }
+
+    @Test
+    public void test5() {
+        int[] arr = {1, -2, 3, 5, -2, 6, -1};
+        System.out.println(getMaxSum(arr));
     }
 
 
