@@ -235,8 +235,5 @@ public class practice_6 {
         System.out.println(remove("1230000000111",7));
     }
 
-    /**
-     * 回文串
-     */
 
 }
