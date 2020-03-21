@@ -12,7 +12,7 @@ public class practice_7 {
 
     /**
      * 使用100000个不同字符串产生的冲突数，大概在0——3波动，使用100百万不同的字符串，冲突数大概110+范围波动
-     *
+     *  类似于进制转换，将目标字符串转换为特定数
      * @param str
      * @return
      */
@@ -62,6 +62,16 @@ public class practice_7 {
     public void test1() {
         match1("ABA", "ABABABAB");
     }
+
+
+    //KMP思路
+    /**
+     * 1.暴力匹配
+     * 2.next数组含义及应用
+     * 3.求next数组
+     */
+
+
 
 
 }
