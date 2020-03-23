@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/官网题目/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/练习的例子/practice_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_7.java" afterDir="false" />
     </list>
@@ -35,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/算法书例子/第一章/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
+            <state>
               <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/练习的例子/practice_6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3707">
-              <caret line="228" column="13" lean-forward="true" selection-start-line="228" selection-start-column="13" selection-end-line="228" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="227" column="7" selection-start-line="227" selection-start-column="7" selection-end-line="227" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2812#2813#0" expanded="true" />
@@ -98,11 +98,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/练习的例子/practice_7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="393">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1600#1601#0" expanded="true" />
                 <element signature="e#1641#1642#0" expanded="true" />
+                <element signature="e#2340#2341#0" expanded="true" />
+                <element signature="e#2399#2400#0" expanded="true" />
+                <element signature="e#3707#3708#0" expanded="true" />
+                <element signature="e#3743#3744#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/练习的例子/practice_8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="class#Suff#0;class#practice_8#0" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/官网题目/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
+            <state relative-caret-position="902">
               <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/src/官网题目/Main5.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -165,8 +184,9 @@
         <option value="$PROJECT_DIR$/src/练习的例子/practice_4.java" />
         <option value="$PROJECT_DIR$/src/练习的例子/practice_5.java" />
         <option value="$PROJECT_DIR$/src/练习的例子/practice_6.java" />
-        <option value="$PROJECT_DIR$/src/练习的例子/practice_7.java" />
         <option value="$PROJECT_DIR$/src/官网题目/Main5.java" />
+        <option value="$PROJECT_DIR$/src/练习的例子/practice_7.java" />
+        <option value="$PROJECT_DIR$/src/练习的例子/practice_8.java" />
       </list>
     </option>
   </component>
@@ -189,7 +209,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,18 +225,13 @@
               <item name="algorithm1" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="官网题目" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="练习的例子" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,30 +272,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main5">
+  <component name="RunManager" selected="JUnit.practice_7.test3">
     <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="官网题目.Main5" />
       <module name="algorithm1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main5.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="官网题目" />
-      <option name="MAIN_CLASS_NAME" value="官网题目.Main5" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main5.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="官网题目" />
-      <option name="MAIN_CLASS_NAME" value="官网题目.Main5" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,13 +300,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice_7.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm1" />
+      <option name="PACKAGE_NAME" value="练习的例子" />
+      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_7" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice_7.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm1" />
+      <option name="PACKAGE_NAME" value="练习的例子" />
+      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_7" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.practice_7.test3" />
+        <item itemvalue="JUnit.practice_7.test2" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="JUnit.Main5.test5" />
         <item itemvalue="JUnit.Main5.test2" />
-        <item itemvalue="JUnit.Main5.test1" />
-        <item itemvalue="JUnit.Main5.test" />
       </list>
     </recent_temporary>
   </component>
@@ -320,24 +334,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="Main5_test1 - 2020.03.21 at 09h 12m 23s.xml">
-      <configuration name="Main5.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main5_test1 - 2020.03.21 at 09h 12m 54s.xml">
-      <configuration name="Main5.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main5_test1 - 2020.03.21 at 09h 13m 30s.xml">
-      <configuration name="Main5.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main5_test1 - 2020.03.21 at 09h 13m 44s.xml">
-      <configuration name="Main5.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main5_test1 - 2020.03.21 at 09h 14m 51s.xml">
-      <configuration name="Main5.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main5_test1 - 2020.03.21 at 09h 14m 53s.xml">
-      <configuration name="Main5.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Main5_test1 - 2020.03.21 at 09h 15m 00s.xml">
       <configuration name="Main5.test1" configurationId="JUnit" />
     </history-entry>
@@ -349,6 +345,24 @@
     </history-entry>
     <history-entry file="Main5_test5 - 2020.03.21 at 10h 36m 51s.xml">
       <configuration name="Main5.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="practice_7_test2 - 2020.03.23 at 10h 13m 31s.xml">
+      <configuration name="practice_7.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="practice_7_test2 - 2020.03.23 at 10h 14m 10s.xml">
+      <configuration name="practice_7.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="practice_7_test2 - 2020.03.23 at 10h 14m 15s.xml">
+      <configuration name="practice_7.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="practice_7_test2 - 2020.03.23 at 10h 19m 09s.xml">
+      <configuration name="practice_7.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="practice_7_test2 - 2020.03.23 at 10h 26m 42s.xml">
+      <configuration name="practice_7.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="practice_7_test3 - 2020.03.23 at 13h 38m 38s.xml">
+      <configuration name="practice_7.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -362,14 +376,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49605057" visible="true" weight="0.19756621" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49447078" visible="true" weight="0.2004295" />
       <window_info id="Structure" order="1" sideWeight="0.50394946" side_tool="true" weight="0.19470294" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50394946" side_tool="true" weight="0.19470294" />
+      <window_info id="Favorites" order="5" sideWeight="0.5055292" side_tool="true" weight="0.2004295" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2117061" />
@@ -738,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/算法书例子/第一章/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
+        <state>
           <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
@@ -769,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/官网题目/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
+        <state relative-caret-position="902">
           <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -777,35 +790,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="657" selection-start-line="657" selection-end-line="657" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/官网题目/Main5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/练习的例子/practice_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-          </folding>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/练习的例子/practice_6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3707">
-          <caret line="228" column="13" lean-forward="true" selection-start-line="228" selection-start-column="13" selection-end-line="228" selection-end-column="13" />
+        <state relative-caret-position="357">
+          <caret line="227" column="7" selection-start-line="227" selection-start-column="7" selection-end-line="227" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2812#2813#0" expanded="true" />
@@ -822,6 +817,41 @@
             <element signature="e#5502#5503#0" expanded="true" />
             <element signature="e#5759#5760#0" expanded="true" />
             <element signature="e#5820#5821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="657" selection-start-line="657" selection-end-line="657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/练习的例子/practice_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#2340#2341#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+            <element signature="e#3707#3708#0" expanded="true" />
+            <element signature="e#3743#3744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/练习的例子/practice_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="class#Suff#0;class#practice_8#0" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
           </folding>
         </state>
       </provider>

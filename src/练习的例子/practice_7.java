@@ -1,5 +1,6 @@
 package 练习的例子;
 
+import com.oracle.webservices.internal.api.EnvelopeStyle;
 import org.junit.Test;
 
 public class practice_7 {
@@ -12,7 +13,8 @@ public class practice_7 {
 
     /**
      * 使用100000个不同字符串产生的冲突数，大概在0——3波动，使用100百万不同的字符串，冲突数大概110+范围波动
-     *  类似于进制转换，将目标字符串转换为特定数
+     * 类似于进制转换，将目标字符串转换为特定数
+     *
      * @param str
      * @return
      */
@@ -49,8 +51,8 @@ public class practice_7 {
 
 
     static void match1(String p, String s) {
-        long hash_p = hash1(p,p.length())[0];
-        long[] hash_s = hash1(s,p.length());
+        long hash_p = hash1(p, p.length())[0];
+        long[] hash_s = hash1(s, p.length());
         for (int i = 0; i < hash_s.length; i++) {
             if (hash_s[i] == hash_p) {
                 System.out.println("match:" + i);
@@ -65,6 +67,7 @@ public class practice_7 {
 
 
     //KMP思路
+
     /**
      * 1.暴力匹配
      * 2.next数组含义及应用
@@ -72,6 +75,97 @@ public class practice_7 {
      */
 
 
+    /**
+     * 暴力法
+     * @param s
+     * @param p
+     * @return
+     */
+    static int indexOf(String s, String p) {
+        int i = 0;
+        int p1 = i;
+        int j = 0;
+        while(i < s.length() - p.length()){
+            if(s.charAt(p1) == p.charAt(j)){
+                p1++;
+                j++;
+                if(j == p.length())
+                    return i;
+            }else{
+                i++;
+                j = 0;
+                p1 = i;
+            }
+        }
+        return -1;
+    }
 
+    @Test
+    public void test2(){
+        System.out.println(indexOf("abcdef","cde"));
+    }
+
+    /**
+     * KMP
+     * @param s
+     * @param p
+     * @return
+     */
+    static int indexOf1(String s, String p){
+        if(s.length() == 0 || p.length() == 0) return -1;
+        if(p.length() > s.length()) return -1;
+
+        int[] next = next(p);
+        int i =0;
+        int j =0;
+        int slen = s.length();
+        int plen = p.length();
+
+        while (i < slen){
+            if(j == -1 || s.charAt(i) == p.charAt(j)){
+                i++;
+                j++;
+            }else{
+                j = next[j];
+            }
+            if(j == plen){
+                return (i - j);
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 求next数组
+     * @param ps
+     * @return
+     */
+    static int[] next(String ps){
+        int plen = ps.length();
+        int[] next = new int[plen];
+        char[] p = ps.toCharArray();
+        next[0] = -1;
+        if(ps.length() == 1){
+            return next;
+        }
+        next[1] = 0;
+
+        int j = 1;
+        int k = next[j];    //看看位置j的最长匹配的前缀在哪儿
+
+        while (j < plen - 1){
+            //现在需要推出next[j+1],检查j和k位置上的关系即可。
+            if(k < 0 || p[j] == p[k]){
+                next[++j] = ++k;
+            }else {
+                k = next[k];
+            }
+        }
+        return next;
+    }
+    @Test
+    public void test3(){
+        System.out.println(indexOf1("abcdef","cde"));
+    }
 
 }
