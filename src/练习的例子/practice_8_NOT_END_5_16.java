@@ -16,7 +16,7 @@ import java.util.Arrays;
  * 3、怎么求后缀数组
  *
  */
-public class practice_8 {
+public class practice_8_NOT_END_5_16 {
 
 
 
@@ -24,15 +24,7 @@ public class practice_8 {
     private static void match(){
         String s = "ABABABABB";
         String p = "BABB";
-
-
-
     }
-
-
-
-
-
 
 
     public static Suff[] getSa(String src){
