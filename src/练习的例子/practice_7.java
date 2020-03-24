@@ -77,6 +77,7 @@ public class practice_7 {
 
     /**
      * 暴力法
+     *
      * @param s
      * @param p
      * @return
@@ -85,13 +86,13 @@ public class practice_7 {
         int i = 0;
         int p1 = i;
         int j = 0;
-        while(i < s.length() - p.length()){
-            if(s.charAt(p1) == p.charAt(j)){
+        while (i < s.length() - p.length()) {
+            if (s.charAt(p1) == p.charAt(j)) {
                 p1++;
                 j++;
-                if(j == p.length())
+                if (j == p.length())
                     return i;
-            }else{
+            } else {
                 i++;
                 j = 0;
                 p1 = i;
@@ -101,34 +102,35 @@ public class practice_7 {
     }
 
     @Test
-    public void test2(){
-        System.out.println(indexOf("abcdef","cde"));
+    public void test2() {
+        System.out.println(indexOf("abcdef", "cde"));
     }
 
     /**
      * KMP
+     *
      * @param s
      * @param p
      * @return
      */
-    static int indexOf1(String s, String p){
-        if(s.length() == 0 || p.length() == 0) return -1;
-        if(p.length() > s.length()) return -1;
+    static int indexOf1(String s, String p) {
+        if (s.length() == 0 || p.length() == 0) return -1;
+        if (p.length() > s.length()) return -1;
 
         int[] next = next(p);
-        int i =0;
-        int j =0;
+        int i = 0;
+        int j = 0;
         int slen = s.length();
         int plen = p.length();
 
-        while (i < slen){
-            if(j == -1 || s.charAt(i) == p.charAt(j)){
+        while (i < slen) {
+            if (j == -1 || s.charAt(i) == p.charAt(j)) {
                 i++;
                 j++;
-            }else{
+            } else {
                 j = next[j];
             }
-            if(j == plen){
+            if (j == plen) {
                 return (i - j);
             }
         }
@@ -137,15 +139,16 @@ public class practice_7 {
 
     /**
      * 求next数组
+     *
      * @param ps
      * @return
      */
-    static int[] next(String ps){
+    static int[] next(String ps) {
         int plen = ps.length();
         int[] next = new int[plen];
         char[] p = ps.toCharArray();
         next[0] = -1;
-        if(ps.length() == 1){
+        if (ps.length() == 1) {
             return next;
         }
         next[1] = 0;
@@ -153,19 +156,21 @@ public class practice_7 {
         int j = 1;
         int k = next[j];    //看看位置j的最长匹配的前缀在哪儿
 
-        while (j < plen - 1){
+        while (j < plen - 1) {
             //现在需要推出next[j+1],检查j和k位置上的关系即可。
-            if(k < 0 || p[j] == p[k]){
+            if (k < 0 || p[j] == p[k]) {
                 next[++j] = ++k;
-            }else {
+            } else {
                 k = next[k];
             }
         }
         return next;
     }
+
     @Test
-    public void test3(){
-        System.out.println(indexOf1("abcdef","cde"));
+    public void test3() {
+        System.out.println(indexOf1("abababababbb", ""));
     }
+
 
 }
