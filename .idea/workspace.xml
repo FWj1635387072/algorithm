@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/练习的例子/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm1/META-INF/algorithm1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_8_NOT_END_5_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_8_NOT_END_5_16.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -71,22 +70,22 @@
       <recent name="D:\Program Files\JetBrains\algorithm1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.test2">
-    <configuration name="practice_7.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.practice_8_NOT_END_5_16.match">
+    <configuration name="practice_8_NOT_END_5_16.match" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm1" />
       <option name="PACKAGE_NAME" value="练习的例子" />
-      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_7" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_8_NOT_END_5_16" />
+      <option name="METHOD_NAME" value="match" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice_9_1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="practice_8_NOT_END_5_16.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm1" />
       <option name="PACKAGE_NAME" value="练习的例子" />
-      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_9_1" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_8_NOT_END_5_16" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,13 +122,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.practice_8_NOT_END_5_16.match" />
+        <item itemvalue="JUnit.practice_8_NOT_END_5_16.test1" />
         <item itemvalue="JUnit.test.test2" />
         <item itemvalue="JUnit.test.test" />
         <item itemvalue="JUnit.test" />
-        <item itemvalue="JUnit.practice_9_1.test3" />
-        <item itemvalue="JUnit.practice_7.test3" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -146,30 +157,30 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1585106190885" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585033727967">
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585293303181">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585033727967" />
-    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585106282573">
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585293303181" />
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585296933917">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1585106282573" />
-    <state width="1397" height="221" key="GridCell.Tab.0.bottom" timestamp="1585054432151">
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1585296933917" />
+    <state width="1397" height="208" key="GridCell.Tab.0.bottom" timestamp="1585295575985">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585054432151" />
-    <state width="1397" height="221" key="GridCell.Tab.0.center" timestamp="1585054432151">
+    <state width="1397" height="208" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585295575985" />
+    <state width="1397" height="208" key="GridCell.Tab.0.center" timestamp="1585295575984">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585054432151" />
-    <state width="1397" height="221" key="GridCell.Tab.0.left" timestamp="1585054432151">
+    <state width="1397" height="208" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585295575984" />
+    <state width="1397" height="208" key="GridCell.Tab.0.left" timestamp="1585295575984">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585054432151" />
-    <state width="1397" height="221" key="GridCell.Tab.0.right" timestamp="1585054432151">
+    <state width="1397" height="208" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585295575984" />
+    <state width="1397" height="208" key="GridCell.Tab.0.right" timestamp="1585295575984">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585054432151" />
+    <state width="1397" height="208" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585295575984" />
     <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1585054432151">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -186,10 +197,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1397" height="221" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1585054432151" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1585136381468">
+    <state x="222" y="103" key="SettingsEditor" timestamp="1585296936455">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585136381468" />
+    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585296936455" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1585293310960">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585293310960" />
     <state x="3" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585053481327">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
