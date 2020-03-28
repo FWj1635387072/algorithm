@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_8_NOT_END_5_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_8_NOT_END_5_16.java" afterDir="false" />
-    </list>
+    <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,30 +154,30 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1585106190885" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585293303181">
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585309687236">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585293303181" />
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585309687236" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585296933917">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1585296933917" />
-    <state width="1397" height="208" key="GridCell.Tab.0.bottom" timestamp="1585295575985">
+    <state width="1397" height="208" key="GridCell.Tab.0.bottom" timestamp="1585309707716">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="208" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585295575985" />
-    <state width="1397" height="208" key="GridCell.Tab.0.center" timestamp="1585295575984">
+    <state width="1397" height="208" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585309707716" />
+    <state width="1397" height="208" key="GridCell.Tab.0.center" timestamp="1585309707716">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="208" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585295575984" />
-    <state width="1397" height="208" key="GridCell.Tab.0.left" timestamp="1585295575984">
+    <state width="1397" height="208" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585309707716" />
+    <state width="1397" height="208" key="GridCell.Tab.0.left" timestamp="1585309707716">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="208" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585295575984" />
-    <state width="1397" height="208" key="GridCell.Tab.0.right" timestamp="1585295575984">
+    <state width="1397" height="208" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585309707716" />
+    <state width="1397" height="208" key="GridCell.Tab.0.right" timestamp="1585309707716">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="208" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585295575984" />
+    <state width="1397" height="208" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585309707716" />
     <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1585054432151">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -201,10 +198,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585296936455" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1585293310960">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1585309694880">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585293310960" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585309694880" />
     <state x="3" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585053481327">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
