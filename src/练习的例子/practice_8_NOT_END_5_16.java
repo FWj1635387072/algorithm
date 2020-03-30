@@ -23,7 +23,7 @@ public class practice_8_NOT_END_5_16 {
     public void match() {
         String s = "ABABABABB";
         String p = "BABB";
-        Suff[] sa = getSa(s); // 后缀数组
+        Suff[] sa = getSa2(s); // 后缀数组
         int l = 0;
         int r = s.length() - 1;
         //二分查找
@@ -100,18 +100,45 @@ public class practice_8_NOT_END_5_16 {
      */
     public static Suff[] getSa2(String src) {
         int strLenth = src.length();
-
         //rk是下标到排名的映射
         int[] rk = new int[strLenth];
         Suff[] suffixArray = new Suff[strLenth];
         for (int k = 1; k <= strLenth; k *= 2) {    //K代表一个取值范围，一开始只截一个字符，即每个字符参与排序，下次两个字符参与排序
             for (int i = 0; i < strLenth; i++) {//增量，注意，此处可能越界
-
+                String suffI = src.substring(i, i + k > strLenth ? strLenth : i + k);
+                suffixArray[i] = new Suff(suffI, i);
+            }
+            if (k == 1) { //一个字符,直接排序
+                Arrays.sort(suffixArray);
+            } else {
+                //填充完毕
+                final int kk = k;
+                Arrays.sort(suffixArray, (o1, o2) -> {
+                    //不是基于字符串比较，而是之前的rank。
+                    int i = o1.index;
+                    int j = o2.index;
+                    if (rk[i] == rk[j]) { //如果o1和o2的前半段
+                        try {
+                            return rk[i + kk / 2] - rk[j + kk / 2];
+                        } catch (ArrayIndexOutOfBoundsException e) {
+                            return o1.s.length() - o2.s.length();
+                        }
+                    } else {
+                        return rk[i] - rk[j];
+                    }
+                });
             }
         }
-
-        return null;
+        //排序完，生产rank，即给定下标，给出排名。
+        int r = 0;
+        rk[suffixArray[0].index] = r;
+        for (int i = 1; i < strLenth; i++) {
+            if(suffixArray[i].compareTo(suffixArray[i- 1]) == 0){ // 内容相同
+                rk[suffixArray[i].index] = r;//索引-排名，给定索引，知道单个字符的排名
+            }else{
+                rk[suffixArray[i].index] = ++r;//索引-排名，给定索引，知道单个字符的排名
+            }
+        }
+        return suffixArray;
     }
-
-
 }
