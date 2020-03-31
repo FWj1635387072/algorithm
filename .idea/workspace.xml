@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/算法书例子/第三章/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/算法书例子/第二章/ch2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法书例子/第二章/ch2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,18 +151,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="蓝桥杯竞赛前的准备" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1585106190885">
+    <state x="313" y="119" key="#Inspections" timestamp="1585617463608">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1585106190885" />
+    <state x="313" y="119" key="#Inspections/0.0.1440.920@0.0.1440.920" timestamp="1585617463608" />
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1585619407133">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1585619407133" />
     <state x="505" y="345" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585556830040">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="505" y="345" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" timestamp="1585556830040" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585617069141">
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585617141980">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585617069141" />
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585617141980" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585296933917">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
