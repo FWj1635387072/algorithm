@@ -1,10 +1,11 @@
 package 算法书例子.第二章;
 
 import org.junit.Test;
-import org.omg.CORBA.Any;
 import 算法书例子.第一章.Util;
 
 import java.math.BigInteger;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class ch2 {
@@ -201,6 +202,17 @@ public class ch2 {
             return pow(x.multiply(x), n.divide(new BigInteger("2")).multiply(x));
     }
 
+    public long pow(long x, int n) {
+        if (n == 0)
+            return 1;
+        if (n == 1)
+            return x;
+        if (n % 2 == 0)
+            return pow(x * x, n / 2);
+        else
+            return pow(x * x, n / 2) * x;
+    }
+
     /**
      * 使用递归进行幂运算(long类型)，其运算范围小于使用math函数，但速度快
      * 使用BigInteger更好更快
@@ -213,13 +225,19 @@ public class ch2 {
     @Test
     public void test22() {
         long l = System.currentTimeMillis();
-        double d = Math.pow(100, 10);
+        double d = Math.pow(10, 10);
         System.out.println(d);
+        Util.duration(l);
+
+        l = System.currentTimeMillis();
+        System.out.println(pow(10,10));
         Util.duration(l);
 
         l = System.currentTimeMillis();
         System.out.println(new BigInteger("100").pow(10));
         Util.duration(l);
+
+
     }
 
     @Test
@@ -266,5 +284,8 @@ public class ch2 {
 
         }
     }
+
+
+
 }
 

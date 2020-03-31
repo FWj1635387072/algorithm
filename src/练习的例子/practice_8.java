@@ -17,7 +17,7 @@ import java.util.Arrays;
  * 匹配
  * 3、怎么求后缀数组
  */
-public class practice_8_NOT_END_5_16 {
+public class practice_8 {
 
     @Test
     public void match() {
