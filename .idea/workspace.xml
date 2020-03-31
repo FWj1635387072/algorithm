@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/练习的例子/practice_10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm1/算法书例子/第二章/ch2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm1/算法书例子/第二章/ch2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/算法书例子/第二章/ch2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法书例子/第二章/ch2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_8_NOT_END_5_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,10 +159,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="505" y="345" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" timestamp="1585556830040" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585555045898">
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585617069141">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585555045898" />
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585617069141" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585296933917">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -206,10 +203,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585296936455" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1585555054394">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1585617076998">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585555054394" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585617076998" />
     <state x="3" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585053481327">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
