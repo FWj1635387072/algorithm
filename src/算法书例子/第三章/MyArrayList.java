@@ -1,14 +1,9 @@
 package 算法书例子.第三章;
 
-import com.sun.deploy.panel.ITreeNode;
-import com.sun.org.apache.xml.internal.utils.Hashtree2Node;
-import jdk.nashorn.internal.runtime.arrays.ArrayLikeIterator;
+import org.junit.Test;
 
-import java.awt.event.ItemEvent;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Objects;
-import java.util.function.Consumer;
 
 public class MyArrayList<AnyType> implements Iterable<AnyType> {
 
@@ -60,10 +55,9 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
         if (newCapacity < theSize)
             return;
         AnyType[] old = theItems;
-        theItems = (AnyType[]) new Objects[newCapacity];
+        theItems = (AnyType[]) new Object[newCapacity];
         for (int i = 0; i < size(); i++)
             theItems[i] = old[i];
-
     }
 
     public boolean add(AnyType x) {
@@ -111,6 +105,45 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
         @Override
         public void remove() {
             MyArrayList.this.remove(--current);
+        }
+    }
+
+    @Test
+    public void test() {
+        MyArrayList<Integer> myList = new MyArrayList<>();
+
+        myList.add(10);
+        System.out.println(myList.get(0));
+
+        myList.remove(0);
+
+        System.out.println(myList.isEmpty());
+
+        myList.add(20);
+        for (Integer i : myList) {
+            System.out.println(i);
+        }
+
+        System.out.println("--------");
+        myList.add(12);
+        Iterator i = myList.iterator();
+        while (i.hasNext()) {
+            System.out.println(i.next());
+        }
+    }
+
+    @Test
+    public void test1() {
+        MyArrayList<Integer> myArrayList = new MyArrayList<>();
+        myArrayList.add(10);
+        myArrayList.add(11);
+        myArrayList.add(12);
+        myArrayList.add(13);
+        myArrayList.remove(2);
+
+        Iterator i = myArrayList.iterator();
+        while (i.hasNext()) {
+            System.out.println(i.next());
         }
     }
 }
