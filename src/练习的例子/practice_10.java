@@ -16,9 +16,4 @@ public class practice_10 {
     public void test1(){
         System.out.println(solve(8,8));
     }
-
-
-
-
-
 }

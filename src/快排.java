@@ -34,7 +34,6 @@ public class 快排 {
         arr[j] = temp;
     }
 
-
     static int partition1(int[] arr, int left,int right){
         int pmain = arr[left];
         int pleft = left + 1;
@@ -58,7 +57,6 @@ public class 快排 {
     static int partition3(int[] arr,int left,int right){
         int[] temp = {arr[left],arr[right],arr[(left+right)/2]};
         return 0;
-
     }
 
 

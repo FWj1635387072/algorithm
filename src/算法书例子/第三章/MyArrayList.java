@@ -7,9 +7,9 @@ import java.util.NoSuchElementException;
 
 public class MyArrayList<AnyType> implements Iterable<AnyType> {
 
-    private static final int DEFAULT_CAPACITY = 10;
-    private int theSize;
-    private AnyType[] theItems;
+    private static final int DEFAULT_CAPACITY = 10;//定义容量
+    private int theSize;                            //ArrayList大小
+    private AnyType[] theItems;                     //ArrayList存储位置
 
     public MyArrayList() {
         doClear();
@@ -19,6 +19,9 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
         doClear();
     }
 
+    /**
+     * 初始化
+     */
     private void doClear() {
         theSize = 0;
         ensureCapacity(DEFAULT_CAPACITY);
@@ -36,13 +39,26 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
         ensureCapacity(size());
     }
 
+    /**
+     * 获取idx位置上的元素
+     *
+     * @param idx
+     * @return
+     */
     public AnyType get(int idx) {
-        if (idx < 0 || idx >= size()) {
+        //判断idx是否合法
+        if (idx < 0 || idx >= size())
             throw new ArrayIndexOutOfBoundsException();
-        }
         return theItems[idx];
     }
 
+    /**
+     * 修改idx位置上的元素
+     *
+     * @param idx
+     * @param newVal
+     * @return
+     */
     public AnyType set(int idx, AnyType newVal) {
         if (idx < 0 || idx >= size())
             throw new ArrayIndexOutOfBoundsException();
@@ -51,7 +67,12 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
         return old;
     }
 
-    public void ensureCapacity(int newCapacity) {
+    /**
+     * 确保ArrayList大小合适，扩容
+     *
+     * @param newCapacity
+     */
+    private void ensureCapacity(int newCapacity) {
         if (newCapacity < theSize)
             return;
         AnyType[] old = theItems;
@@ -60,11 +81,23 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
             theItems[i] = old[i];
     }
 
+    /**
+     * 在ArrayList末尾添加
+     *
+     * @param x
+     * @return
+     */
     public boolean add(AnyType x) {
         add(size(), x);
         return true;
     }
 
+    /**
+     * 在idx后添加元素
+     *
+     * @param idx
+     * @param x
+     */
     public void add(int idx, AnyType x) {
         if (theItems.length == size())
             ensureCapacity(size() * 2 + 1);
@@ -74,6 +107,12 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
         theSize++;
     }
 
+    /**
+     * 移除idx上的元素
+     *
+     * @param idx
+     * @return
+     */
     public AnyType remove(int idx) {
         AnyType removeItem = theItems[idx];
         for (int i = idx; i < size() - 1; i++)
@@ -87,6 +126,10 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
         return new ArrayListIterator();
     }
 
+    /**
+     * 内部类，迭代器
+     * 使用内部类，免去了在外部新建迭代器导致引用混乱
+     */
     private class ArrayListIterator implements Iterator<AnyType> {
         private int current = 0;
 
