@@ -1,10 +1,7 @@
 package 算法书例子.第三章;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Object;
 
 import java.util.Iterator;
-import java.util.ListIterator;
 
 public class MyArrayList1<AnyType> implements Iterable<AnyType> {
     private static final int DEFAULT_CAPACITY = 10;
