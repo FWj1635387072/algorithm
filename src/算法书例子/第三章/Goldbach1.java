@@ -1,7 +1,10 @@
 package 算法书例子.第三章;
 
 import com.sun.xml.internal.fastinfoset.util.FixedEntryStringIntMap;
+import org.junit.Test;
 
+import javax.swing.plaf.synth.SynthSpinnerUI;
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Goldbach1 {
@@ -31,5 +34,13 @@ public class Goldbach1 {
         long l = System.currentTimeMillis();
         fenge(n);
         System.out.println(System.currentTimeMillis() - l);
+    }
+    
+    
+    @Test
+    public void test1(){
+        BigInteger a = new BigInteger("101");
+        BigInteger b = new BigInteger("200");
+        System.out.println(a.isProbablePrime(1));
     }
 }

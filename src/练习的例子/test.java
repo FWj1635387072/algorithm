@@ -71,28 +71,30 @@ public class test {
      * 示例 2:
      * 输入: [4,1,2,1,2]
      * 输出: 4
+     *
      * @param nums
      * @return
      */
     //使用异或位运算
     public int singleNumber(int[] nums) {
         int res = nums[0];
-        for(int i = 1;i < nums.length;i++){
-            res= res^nums[i];
+        for (int i = 1; i < nums.length; i++) {
+            res = res ^ nums[i];
         }
         return res;
     }
+
     //使用哈希集合
     public int singleNumber1(int[] nums) {
-        Map<Integer,Integer> map = new HashMap<>();
-        for(Integer i : nums){
+        Map<Integer, Integer> map = new HashMap<>();
+        for (Integer i : nums) {
             Integer count = map.get(i);
             count = count == null ? 0 : ++count;
-            map.put(i,count);
+            map.put(i, count);
         }
-        for(Integer i : map.keySet()){
+        for (Integer i : map.keySet()) {
             Integer count = map.get(i);
-            if(count != 1){
+            if (count != 1) {
                 return i;
             }
         }
@@ -100,10 +102,31 @@ public class test {
     }
 
 
-
     @Test
     public void test2() {
-        System.out.println(singleNumber1(new int[]{4,1,2,1,2}));
+        System.out.println(singleNumber1(new int[]{4, 1, 2, 1, 2}));
     }
+
+
+    public int reverse(int x) {
+        int res = 0;
+        int max = 2147483647;
+        while (x != 0) {
+            if (Math.abs(res) > max) return 0;
+            res = res * 10 + x % 10;
+            x /= 10;
+        }
+        return res;
+    }
+
+    
+    @Test
+    public void test3() {
+        String s = "asd";
+        s.length();
+        System.out.println(reverse(123421311));
+        s.charAt(1);
+    }
+
 
 }
