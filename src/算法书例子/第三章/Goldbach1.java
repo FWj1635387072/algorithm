@@ -1,9 +1,7 @@
 package 算法书例子.第三章;
 
-import com.sun.xml.internal.fastinfoset.util.FixedEntryStringIntMap;
 import org.junit.Test;
 
-import javax.swing.plaf.synth.SynthSpinnerUI;
 import java.math.BigInteger;
 import java.util.Scanner;
 
