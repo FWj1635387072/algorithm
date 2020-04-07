@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/杂项/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/杂项/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/算法书例子/第三章/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/算法书例子/第三章/Goldbach1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法书例子/第三章/Goldbach1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/算法书例子/第三章/Goldbach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法书例子/第三章/Goldbach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/算法书例子/第三章/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法书例子/第三章/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/算法书例子/第三章/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法书例子/第三章/MyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +69,9 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="算法书例子.第三章" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -72,16 +80,9 @@
       <recent name="D:\Program Files\JetBrains\algorithm1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Goldbach1.test1">
-    <configuration name="Goldbach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="算法书例子.第三章.Goldbach" />
-      <module name="algorithm1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_10" />
+  <component name="RunManager" selected="Application.TestException">
+    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="杂项.TestException" />
       <module name="algorithm1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +98,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice_10.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="练习的例子" />
-      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_10" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="算法书例子.第三章" />
+      <option name="MAIN_CLASS_NAME" value="算法书例子.第三章.StackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm1" />
+      <option name="PACKAGE_NAME" value="算法书例子.第三章" />
+      <option name="MAIN_CLASS_NAME" value="算法书例子.第三章.StackTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestException" />
+        <item itemvalue="JUnit.StackTest" />
+        <item itemvalue="JUnit.StackTest.test" />
         <item itemvalue="JUnit.Goldbach1.test1" />
         <item itemvalue="JUnit.test.test3" />
-        <item itemvalue="JUnit.practice_10.test2" />
-        <item itemvalue="Application.practice_10" />
-        <item itemvalue="Application.Goldbach" />
       </list>
     </recent_temporary>
   </component>
@@ -158,38 +168,42 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="119" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1585790452817" />
-    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1585640674870">
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1586224382077">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1585640674870" />
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1586224382077" />
     <state x="505" y="345" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585556830040">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="505" y="345" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" timestamp="1585556830040" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1585902690608">
+    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586220860351">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585902690608" />
+    <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1586220860351" />
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1586239685169">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1586239685169" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585296933917">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1585296933917" />
-    <state width="1397" height="221" key="GridCell.Tab.0.bottom" timestamp="1585823404263">
+    <state width="1397" height="248" key="GridCell.Tab.0.bottom" timestamp="1586225261649">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585823404263" />
-    <state width="1397" height="221" key="GridCell.Tab.0.center" timestamp="1585823404262">
+    <state width="1397" height="248" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1586225261649" />
+    <state width="1397" height="248" key="GridCell.Tab.0.center" timestamp="1586225261649">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585823404262" />
-    <state width="1397" height="221" key="GridCell.Tab.0.left" timestamp="1585823404262">
+    <state width="1397" height="248" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1586225261649" />
+    <state width="1397" height="248" key="GridCell.Tab.0.left" timestamp="1586225261649">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585823404262" />
-    <state width="1397" height="221" key="GridCell.Tab.0.right" timestamp="1585823404263">
+    <state width="1397" height="248" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1586225261649" />
+    <state width="1397" height="248" key="GridCell.Tab.0.right" timestamp="1586225261649">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585823404263" />
+    <state width="1397" height="248" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1586225261649" />
     <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1585823404264">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -210,10 +224,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585811040234" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1585902697249">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1586173766462">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585902697249" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1586173766462" />
     <state x="3" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585053481327">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

@@ -1,6 +1,5 @@
 package 算法书例子.第三章;
 
-import java.beans.BeanInfo;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -99,9 +98,9 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
             p = beginMarker.next;
             for (int i = 0; i < idx; i++)
                 p = p.next;
-        }else {
+        } else {
             p = endMarker;
-            for(int i = size();i > idx;i--)
+            for (int i = size(); i > idx; i--)
                 p = p.prev;
         }
         return p;
@@ -125,9 +124,9 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
 
         @Override
         public AnyType next() {
-            if (modCount!=exceptModCount)
+            if (modCount != exceptModCount)
                 throw new ConcurrentModificationException();
-            if(!hasNext())
+            if (!hasNext())
                 throw new NoSuchElementException();
 
             AnyType nextItem = current.data;
@@ -138,7 +137,7 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
 
         @Override
         public void remove() {
-            if(modCount != exceptModCount)
+            if (modCount != exceptModCount)
                 throw new ConcurrentModificationException();
             if (!okToRemove)
                 throw new IllegalStateException();

@@ -1,6 +1,5 @@
 package 算法书例子.第三章;
 
-import java.util.Collection;
 import java.util.ListIterator;
 
 public interface MyList<Anytype>  {
