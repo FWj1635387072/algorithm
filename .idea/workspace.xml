@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/算法书例子/第三章/ch3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/算法书例子/第三章/单链表/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/算法书例子/第三章/单链表/SingleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/算法书例子/第四章/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/练习的例子/practice_11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/递归算法题目.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/递归算法题目.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/算法书例子/第四章/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法书例子/第四章/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,10 +176,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1586220860351" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1586239693558">
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1586332386847">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1586239693558" />
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1586332386847" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585296933917">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -223,10 +220,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585811040234" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1586239701872">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1586332392895">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1586239701872" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1586332392895" />
     <state x="3" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585053481327">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

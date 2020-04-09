@@ -1,9 +1,6 @@
 package 算法书例子.第四章;
 
-import sun.swing.plaf.synth.SynthFileChooserUI;
-
 import java.nio.BufferUnderflowException;
-import java.util.logging.Level;
 
 public class BinarySearchTree<AnyType extends Comparable<? super AnyType>> {
     private static class BinaryNode<AnyType> {
