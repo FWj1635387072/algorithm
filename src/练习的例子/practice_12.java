@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class practice_12 {
     ArrayList<String> res = new ArrayList<>();
 
-    //全排列
+    //全排列,回溯
     public ArrayList<String> getPermutation(String A){
         char[] arr = A.toCharArray();
         Arrays.sort(arr);
