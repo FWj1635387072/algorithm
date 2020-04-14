@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/练习的例子/practice_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/杂项/week7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm1/递归算法题目.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm1/递归算法题目.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/练习的例子/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +26,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="algorithm1" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -44,7 +41,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,7 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -77,19 +73,10 @@
       <recent name="D:\Program Files\JetBrains\algorithm1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.practice_11.test2">
-    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="杂项.TestException" />
+  <component name="RunManager" selected="JUnit.practice_12.test1">
+    <configuration name="week7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="杂项.week7" />
       <module name="algorithm1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="算法书例子.第三章" />
-      <option name="MAIN_CLASS_NAME" value="算法书例子.第三章.StackTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,33 +111,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice_12.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm1" />
+      <option name="PACKAGE_NAME" value="练习的例子" />
+      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_12" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.practice_12.test1" />
+        <item itemvalue="Application.week7" />
         <item itemvalue="JUnit.practice_11.test2" />
         <item itemvalue="JUnit.practice_11.test1" />
         <item itemvalue="JUnit.递归算法题目.Test1" />
-        <item itemvalue="Application.TestException" />
-        <item itemvalue="JUnit.StackTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -172,6 +157,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1586240842695" />
+    <state x="401" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586777917370">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="401" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.920@0.0.1440.920" timestamp="1586777917370" />
     <state x="505" y="345" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585556830040">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -180,30 +169,30 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1586220860351" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1586432518083">
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1586770873499">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1586432518083" />
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1586770873499" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585296933917">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1585296933917" />
-    <state width="1397" height="183" key="GridCell.Tab.0.bottom" timestamp="1586748623712">
+    <state width="1397" height="183" key="GridCell.Tab.0.bottom" timestamp="1586829989676">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="183" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1586748623712" />
-    <state width="1397" height="183" key="GridCell.Tab.0.center" timestamp="1586748623712">
+    <state width="1397" height="183" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1586829989676" />
+    <state width="1397" height="183" key="GridCell.Tab.0.center" timestamp="1586829989676">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="183" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1586748623712" />
-    <state width="1397" height="183" key="GridCell.Tab.0.left" timestamp="1586748623712">
+    <state width="1397" height="183" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1586829989676" />
+    <state width="1397" height="183" key="GridCell.Tab.0.left" timestamp="1586829989676">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="183" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1586748623712" />
-    <state width="1397" height="183" key="GridCell.Tab.0.right" timestamp="1586748623712">
+    <state width="1397" height="183" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1586829989676" />
+    <state width="1397" height="183" key="GridCell.Tab.0.right" timestamp="1586829989676">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="183" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1586748623712" />
+    <state width="1397" height="183" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1586829989676" />
     <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1585823404264">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -220,14 +209,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1397" height="221" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1585823404264" />
-    <state x="222" y="103" key="SettingsEditor" timestamp="1586770861494">
+    <state x="222" y="103" key="SettingsEditor" timestamp="1586824592596">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1586770861493" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1586432523726">
+    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1586824592596" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1586777598092">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1586432523726" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1586777598092" />
     <state x="3" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585053481327">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -236,10 +225,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="354" y="71" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1585106293713" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1586746055142">
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1586828825283">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1586746055142" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1586828825283" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
