@@ -161,7 +161,29 @@ maxHeapFixDown(A,i,n){
 
 
 
+dfs(table,x,y){
+    if(x==9){
+        print(table);
+        System.exit(0);
+    }
+    if(table[x][y] == '0'){
+        //选1-9之间合法的数字填到x,y这个地方
+        for(i = 1..9){
+            boolean res = check(table,x,y,i);
+            if(res){
+                table[x][y] = (char)'0'+i; //转移到下一个状态
+                dfs(table,x + (y+1) / 9,(y+1)%9);
+                
+            }
+        }
+        table[x][y] = '0';//回溯
+    }else{
+        //继续找下一个需要处理的数字
+        dfs(table,x + (y+1) / 9,(y+1)%9)
+        
+    }
 
+}
 
 
 
