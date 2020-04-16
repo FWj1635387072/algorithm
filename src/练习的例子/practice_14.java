@@ -33,41 +33,37 @@ public class practice_14 {
             print();
             return;
         }
-
         //向右走
-        if (canMove(i, j, i, j + 1)) {
+        if (canMove(i, j + 1)) {
             array[i][j] = 5;
             check(i, j + 1);
             array[i][j] = 0;
         }
         //向左走
-        if (canMove(i, j, i, j - 1)) {
+        if (canMove(i, j - 1)) {
             array[i][j] = 5;
             check(i, j - 1);
             array[i][j] = 0;
         }
         //向下走
-        if (canMove(i, j, i + 1, j)) {
+        if (canMove(i + 1, j)) {
             array[i][j] = 5;
             check(i + 1, j);
             array[i][j] = 0;
         }
         //向右走
-        if (canMove(i, j, i - 1, j)) {
+        if (canMove( i - 1, j)) {
             array[i][j] = 5;
             check(i - 1, j);
             array[i][j] = 0;
         }
     }
 
-    private boolean canMove(int i, int j, int targetI, int targetJ) {
+    private boolean canMove( int targetI, int targetJ) {
         if (targetI < 0 || targetJ < 0 || targetI >= maxRow || targetJ >= maxLine)
             return false;
 
-        if (array[targetI][targetJ] == 1)
-            return false;
-
-        if (array[targetI][targetJ] == 5)
+        if (array[targetI][targetJ] == 1 || array[targetI][targetJ] == 5)
             return false;
 
         return true;

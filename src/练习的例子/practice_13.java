@@ -1,5 +1,7 @@
 package 练习的例子;
 
+import org.junit.Test;
+
 import java.util.Scanner;
 
 public class practice_13 {
@@ -16,7 +18,7 @@ public class practice_13 {
         for (int i = 0; i < 9; i++) {
             table[i] = sc.nextLine().toCharArray();
         }
-    dfs(table, 0, 0);
+        dfs(table, 0, 0);
     }
 
     private static void dfs(char[][] table, int x, int y) {
@@ -39,14 +41,15 @@ public class practice_13 {
 
     private static void print(char[][] talbe) {
         for (int i = 0; i < 9; i++) {
-            System.out.println(new String(talbe[i])); }
+            System.out.println(new String(talbe[i]));
+        }
     }
 
     private static boolean check(char[][] table, int i, int j, int k) {
         //检查同行和同列
         for (int l = 0; l < 9; l++) {
             if (table[i][l] == (char) ('0' + k)) return false;
-            if (table[l][i] == (char) ('0' + k)) return false;
+            if (table[l][j] == (char) ('0' + k)) return false;
         }
         //检查小九宫格
         for (int l = (i / 3) * 3; l < (i / 3 + 1) * 3; l++) {
@@ -56,6 +59,5 @@ public class practice_13 {
         }
         return true;
     }
-
 
 }
