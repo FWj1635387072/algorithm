@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/练习的例子/practice_13_1_DFS练习.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/练习的例子/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,23 +57,9 @@
       <recent name="算法书例子.第三章" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem10">
+  <component name="RunManager" selected="JUnit.practice_13_1_DFS练习">
     <configuration name="Problem10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem10" />
-      <module name="模拟赛" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem6" />
-      <module name="模拟赛" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem7" />
       <module name="模拟赛" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,13 +79,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice_13_1_DFS练习" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm1" />
+      <option name="PACKAGE_NAME" value="练习的例子" />
+      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_13_1_DFS练习" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice_13_1_DFS练习.test_八皇后" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm1" />
+      <option name="PACKAGE_NAME" value="练习的例子" />
+      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_13_1_DFS练习" />
+      <option name="METHOD_NAME" value="test_八皇后" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.practice_13_1_DFS练习" />
+        <item itemvalue="JUnit.practice_13_1_DFS练习.test_八皇后" />
         <item itemvalue="Application.Problem10" />
         <item itemvalue="Application.TEst" />
         <item itemvalue="Application.Problem8" />
-        <item itemvalue="Application.Problem7" />
-        <item itemvalue="Application.Problem6" />
       </list>
     </recent_temporary>
   </component>
@@ -166,46 +158,46 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1586220860351" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1587013999191">
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1587181761824">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1587013999191" />
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1587181761824" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1587171405371">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1587171405371" />
-    <state width="1397" height="153" key="GridCell.Tab.0.bottom" timestamp="1587179712098">
+    <state width="1397" height="221" key="GridCell.Tab.0.bottom" timestamp="1587207086304">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="153" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587179712098" />
-    <state width="1397" height="153" key="GridCell.Tab.0.center" timestamp="1587179712098">
+    <state width="1397" height="221" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
+    <state width="1397" height="221" key="GridCell.Tab.0.center" timestamp="1587207086304">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="153" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1587179712098" />
-    <state width="1397" height="153" key="GridCell.Tab.0.left" timestamp="1587179712098">
+    <state width="1397" height="221" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
+    <state width="1397" height="221" key="GridCell.Tab.0.left" timestamp="1587207086304">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="153" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1587179712098" />
-    <state width="1397" height="153" key="GridCell.Tab.0.right" timestamp="1587179712098">
+    <state width="1397" height="221" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
+    <state width="1397" height="221" key="GridCell.Tab.0.right" timestamp="1587207086304">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="153" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1587179712098" />
-    <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1587174000353">
+    <state width="1397" height="221" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
+    <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1587207086305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587174000353" />
-    <state width="1397" height="221" key="GridCell.Tab.1.center" timestamp="1587174000353">
+    <state width="1397" height="221" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587207086305" />
+    <state width="1397" height="221" key="GridCell.Tab.1.center" timestamp="1587207086305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1587174000353" />
-    <state width="1397" height="221" key="GridCell.Tab.1.left" timestamp="1587174000353">
+    <state width="1397" height="221" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1587207086305" />
+    <state width="1397" height="221" key="GridCell.Tab.1.left" timestamp="1587207086304">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1587174000353" />
-    <state width="1397" height="221" key="GridCell.Tab.1.right" timestamp="1587174000353">
+    <state width="1397" height="221" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
+    <state width="1397" height="221" key="GridCell.Tab.1.right" timestamp="1587207086305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1587174000353" />
+    <state width="1397" height="221" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1587207086305" />
     <state x="206" y="186" key="SettingsEditor" timestamp="1587181300330">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -214,10 +206,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="442" y="202" width="540" height="524" key="StructurePopup/0.0.1440.920@0.0.1440.920" timestamp="1586931781836" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587014008177">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587181769629">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1587014008177" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1587181769629" />
     <state x="3" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585053481327">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -234,6 +226,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="354" y="71" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1587171423107" />
+    <state x="377" y="211" key="run.anything.popup" timestamp="1587181819907">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1587181819907" />
     <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1587179083471">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
