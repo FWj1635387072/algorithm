@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/src/Problem9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/练习的例子/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,70 +56,63 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="算法书例子.第三章" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Program Files\JetBrains\algorithm1" />
       <recent name="D:\Program Files\JetBrains\algorithm1\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="算法书例子.第三章" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="solve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="练习的例子.solve" />
-      <module name="algorithm1" />
+  <component name="RunManager" selected="Application.Problem10">
+    <configuration name="Problem10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem10" />
+      <module name="模拟赛" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="练习的例子.test" />
-      <module name="algorithm1" />
+    <configuration name="Problem6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem6" />
+      <module name="模拟赛" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice_14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="练习的例子" />
-      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_14" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Problem7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem7" />
+      <module name="模拟赛" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice_14_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="练习的例子" />
-      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_14_1" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Problem8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem8" />
+      <module name="模拟赛" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solve.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="练习的例子" />
-      <option name="MAIN_CLASS_NAME" value="练习的例子.solve" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="TEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEst" />
+      <module name="模拟赛" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.solve" />
-        <item itemvalue="JUnit.solve.test1" />
-        <item itemvalue="JUnit.practice_14_1" />
-        <item itemvalue="JUnit.practice_14" />
+        <item itemvalue="Application.Problem10" />
+        <item itemvalue="Application.TEst" />
+        <item itemvalue="Application.Problem8" />
+        <item itemvalue="Application.Problem7" />
+        <item itemvalue="Application.Problem6" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +146,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="119" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1585790452817" />
+    <state x="201" y="35" key="#Project_Structure" timestamp="1587171428985">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="201" y="35" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1587171428985" />
     <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1586851346708">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -160,46 +170,46 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1587013999191" />
-    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1585296933917">
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1587171405371">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1585296933917" />
-    <state width="1397" height="234" key="GridCell.Tab.0.bottom" timestamp="1587020596782">
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1587171405371" />
+    <state width="1397" height="153" key="GridCell.Tab.0.bottom" timestamp="1587179712098">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="234" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587020596782" />
-    <state width="1397" height="234" key="GridCell.Tab.0.center" timestamp="1587020596782">
+    <state width="1397" height="153" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587179712098" />
+    <state width="1397" height="153" key="GridCell.Tab.0.center" timestamp="1587179712098">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="234" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1587020596782" />
-    <state width="1397" height="234" key="GridCell.Tab.0.left" timestamp="1587020596782">
+    <state width="1397" height="153" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1587179712098" />
+    <state width="1397" height="153" key="GridCell.Tab.0.left" timestamp="1587179712098">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="234" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1587020596782" />
-    <state width="1397" height="234" key="GridCell.Tab.0.right" timestamp="1587020596782">
+    <state width="1397" height="153" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1587179712098" />
+    <state width="1397" height="153" key="GridCell.Tab.0.right" timestamp="1587179712098">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="234" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1587020596782" />
-    <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1587012087599">
+    <state width="1397" height="153" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1587179712098" />
+    <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1587174000353">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587012087599" />
-    <state width="1397" height="221" key="GridCell.Tab.1.center" timestamp="1587012087599">
+    <state width="1397" height="221" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587174000353" />
+    <state width="1397" height="221" key="GridCell.Tab.1.center" timestamp="1587174000353">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1587012087599" />
-    <state width="1397" height="221" key="GridCell.Tab.1.left" timestamp="1587012087599">
+    <state width="1397" height="221" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1587174000353" />
+    <state width="1397" height="221" key="GridCell.Tab.1.left" timestamp="1587174000353">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1587012087599" />
-    <state width="1397" height="221" key="GridCell.Tab.1.right" timestamp="1587012087599">
+    <state width="1397" height="221" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1587174000353" />
+    <state width="1397" height="221" key="GridCell.Tab.1.right" timestamp="1587174000353">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1587012087599" />
-    <state x="206" y="186" key="SettingsEditor" timestamp="1586938367007">
+    <state width="1397" height="221" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1587174000353" />
+    <state x="206" y="186" key="SettingsEditor" timestamp="1587181300330">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="206" y="186" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1586938367007" />
+    <state x="206" y="186" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1587181300330" />
     <state x="442" y="202" width="540" height="524" key="StructurePopup" timestamp="1586931781836">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -220,14 +230,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="419" y="178" width="603" height="564" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1586997118020" />
-    <state x="354" y="71" key="new project wizard" timestamp="1585106293713">
+    <state x="354" y="71" key="new project wizard" timestamp="1587171423107">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="354" y="71" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1585106293713" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1586997322612">
+    <state x="354" y="71" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1587171423107" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1587179083471">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1586997322612" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1587179083471" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -261,90 +271,12 @@
           <line>14</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/模拟赛/src/Problem6.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>algorithm1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

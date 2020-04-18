@@ -134,6 +134,17 @@ public class test {
         System.out.println((0.01-0.015)/Math.sqrt(0.00043875));
     }
 
+
+    @Test
+    public void test4(){
+        char c = 'x';
+        c+=3;
+        System.out.println(c);
+        System.out.println((int)c);
+
+        //97
+    }
+
 }
 
 

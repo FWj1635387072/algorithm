@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Stack;
 
 public class practice_12 {
     ArrayList<String> res = new ArrayList<>();
@@ -40,12 +41,36 @@ public class practice_12 {
     
     @Test
     public void test1() throws IOException {
-        ArrayList<String> list = getPermutation("abzsdfuad");
-        BufferedWriter write = new BufferedWriter(new OutputStreamWriter(System.out));
+        ArrayList<String> list = getPermutation("abcdefg");
+System.out.println(list.size());
+        int count = 0;
         for(String s:list){
-            write.write(s);
-            write.write(",");
+            if(isLegal(s)  ){
+                count++;
+            }
         }
-        write.flush();
+        System.out.println(count);
+        
+    }
+
+
+
+    public boolean isLegal(String expression) {
+        Stack<Character> stack = new Stack<Character>();
+        char[] ch = expression.toCharArray();
+        for (int i = 0; i < ch.length; i++) {
+            char currCh = ch[i];
+            switch (currCh) {
+                case '(':
+                    stack.push('(');
+                    break;
+
+                case ')':
+                    if (stack.isEmpty() || stack.pop() != '(')
+                        return false;
+                    break;
+            }
+        }
+        return true;
     }
 }
