@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7a96f67-4fa0-4512-91f3-f710d06e7654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/练习的例子/practice_13_1_DFS练习.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pku.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sina.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/杂项/MyCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/杂项/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/杂项/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/杂项/Week8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模拟赛/模拟赛.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/练习的例子/practice_13_1_DFS练习.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/练习的例子/practice_13_1_DFS练习.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,12 +36,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZYLNPk138ZptZNNg7sSt5iBJvZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -43,7 +60,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,42 +74,43 @@
       <recent name="算法书例子.第三章" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.practice_13_1_DFS练习">
-    <configuration name="Problem10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem10" />
-      <module name="模拟赛" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem8" />
-      <module name="模拟赛" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TEst" />
-      <module name="模拟赛" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice_13_1_DFS练习" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyCalendar.test1">
+    <configuration name="MyCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="杂项.MyCalendar" />
       <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="练习的例子" />
-      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_13_1_DFS练习" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice_13_1_DFS练习.test_八皇后" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="杂项.MyDate" />
       <module name="algorithm1" />
-      <option name="PACKAGE_NAME" value="练习的例子" />
-      <option name="MAIN_CLASS_NAME" value="练习的例子.practice_13_1_DFS练习" />
-      <option name="METHOD_NAME" value="test_八皇后" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="杂项.Week8" />
+      <module name="algorithm1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCalendar.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm1" />
+      <option name="PACKAGE_NAME" value="杂项" />
+      <option name="MAIN_CLASS_NAME" value="杂项.MyCalendar" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDate.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm1" />
+      <option name="PACKAGE_NAME" value="杂项" />
+      <option name="MAIN_CLASS_NAME" value="杂项.MyDate" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.practice_13_1_DFS练习" />
-        <item itemvalue="JUnit.practice_13_1_DFS练习.test_八皇后" />
-        <item itemvalue="Application.Problem10" />
-        <item itemvalue="Application.TEst" />
-        <item itemvalue="Application.Problem8" />
+        <item itemvalue="JUnit.MyCalendar.test1" />
+        <item itemvalue="Application.MyCalendar" />
+        <item itemvalue="JUnit.MyDate.test1" />
+        <item itemvalue="Application.MyDate" />
+        <item itemvalue="Application.Week8" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +133,7 @@
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/algorithm" />
     </ignored-roots>
@@ -142,10 +161,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="201" y="35" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1587171428985" />
-    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1586851346708">
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1587428856872">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1586851346708" />
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1587428856872" />
     <state x="401" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586777917370">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -158,30 +177,30 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1586220860351" />
-    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1587181761824">
+    <state x="363" y="51" key="CommitChangelistDialog2" timestamp="1587207135032">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1587181761824" />
+    <state x="363" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1587207135032" />
     <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1587171405371">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1587171405371" />
-    <state width="1397" height="221" key="GridCell.Tab.0.bottom" timestamp="1587207086304">
+    <state width="1397" height="180" key="GridCell.Tab.0.bottom" timestamp="1587439614271">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
-    <state width="1397" height="221" key="GridCell.Tab.0.center" timestamp="1587207086304">
+    <state width="1397" height="180" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1587439614271" />
+    <state width="1397" height="180" key="GridCell.Tab.0.center" timestamp="1587439614270">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
-    <state width="1397" height="221" key="GridCell.Tab.0.left" timestamp="1587207086304">
+    <state width="1397" height="180" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1587439614270" />
+    <state width="1397" height="180" key="GridCell.Tab.0.left" timestamp="1587439614270">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
-    <state width="1397" height="221" key="GridCell.Tab.0.right" timestamp="1587207086304">
+    <state width="1397" height="180" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1587439614270" />
+    <state width="1397" height="180" key="GridCell.Tab.0.right" timestamp="1587439614270">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1587207086304" />
+    <state width="1397" height="180" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1587439614270" />
     <state width="1397" height="221" key="GridCell.Tab.1.bottom" timestamp="1587207086305">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -198,18 +217,19 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1397" height="221" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1587207086305" />
-    <state x="206" y="186" key="SettingsEditor" timestamp="1587181300330">
+    <state x="206" y="70" width="996" height="707" key="SettingsEditor" timestamp="1587436455260">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="206" y="186" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1587181300330" />
+    <state x="206" y="70" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1587436455260" />
+    <state x="367" y="157" width="996" height="707" key="SettingsEditor/0.0.1440.960@0.0.1440.960" timestamp="1587360329630" />
     <state x="442" y="202" width="540" height="524" key="StructurePopup" timestamp="1586931781836">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="442" y="202" width="540" height="524" key="StructurePopup/0.0.1440.920@0.0.1440.920" timestamp="1586931781836" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587181769629">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1587207141525">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1587181769629" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1587207141525" />
     <state x="3" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585053481327">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -218,22 +238,24 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="268" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.920@0.0.1440.920" timestamp="1586930780413" />
-    <state x="419" y="178" width="603" height="564" key="find.popup" timestamp="1586997118020">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="419" y="186" width="603" height="589" key="find.popup" timestamp="1587360147432">
+      <screen x="0" y="0" width="1440" height="960" />
     </state>
     <state x="419" y="178" width="603" height="564" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1586997118020" />
-    <state x="354" y="71" key="new project wizard" timestamp="1587171423107">
+    <state x="419" y="186" width="603" height="589" key="find.popup/0.0.1440.960@0.0.1440.960" timestamp="1587360147432" />
+    <state x="354" y="71" key="new project wizard" timestamp="1587428522366">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="354" y="71" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1587171423107" />
+    <state x="354" y="71" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1587428522366" />
+    <state x="354" y="74" key="new project wizard/0.0.1440.960@0.0.1440.960" timestamp="1587359891622" />
     <state x="377" y="211" key="run.anything.popup" timestamp="1587181819907">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1587181819907" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1587179083471">
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1587437457981">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1587179083471" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1587437457981" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
